@@ -1,0 +1,1061 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+	text-decoration: none;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Carlito', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+	width: 100%;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+}
+
+.nav-section {
+	padding: 3%;
+	background-color: black;
+}
+
+address {
+	text-align: center;
+	padding-bottom: 4%;
+}
+
+address h3 {
+	font-weight: bold;
+	padding-bottom: 1%;
+}
+
+#menu {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+#menu img {
+	margin-top: 3.5%;
+	width: 30%;
+	height: 10%;
+}
+
+.links a {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.film {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+#film img {
+	width: 40%;
+	margin: auto auto;
+}
+
+#film h1 {
+	margin-top: 7.5%;
+	margin: auto auto;
+}
+
+#portrait img {
+	text-align: center;
+}
+
+.film-text {
+	text-align: center;
+}
+
+.film-text h2 {
+	font-weight: bold;
+}
+
+.film-text p {
+	text-align: justify;
+}
+
+.soul-sing {
+	font-weight: bold;
+	font-family: 'Dancing Script', sans-serif;
+}
+
+.linwood {
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 1%;
+}
+
+.linwood-border {
+	border: 4px solid black;
+	padding: 4%;
+}
+
+.jacy img, .ben img {
+	width: 50%;
+	border-radius: 50%;
+	margin-top: 4%;
+	margin-left: 25%;
+}
+
+.jacy-text, .ben-text {
+	width: 90%;
+	padding: 2% 8%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.jacy, .ben {
+	width: 50%;
+}
+
+.team-bio h3 {
+	font-weight: bold;
+}
+
+.team-bio {
+	display: flex;
+}
+
+.call-to-action {
+	text-align: center;
+	background-color: black;
+	color: #f3f3f3;
+	padding: 4%;
+	margin: 0;
+}
+
+.call-to-action a {
+	color: #f3f3f3;
+}
+
+.call-to-action h3 {
+	font-weight: bold;
+	padding-bottom: 1%;
+}
+
+.call-to-action p {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.donations {
+	text-align: center;
+}
+
+.donations h3 {
+	font-weight: bold;
+	padding-bottom: 1%;
+}
+
+.donations p {
+	width: 50%;
+	margin: 0 auto;
+}
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	color: #f3f3f3;
+	padding: 2%;
+	width: 100%;
+}
+
+.instagram {
+	width: 50%;
+	text-align: center;
+	justify-content: center;
+}
+
+.copyright {
+	width: 50%;
+	text-align: center;
+	margin-top: 3%;
+}
+
+footer img {
+	width: 10%;
+}
+
+@media screen and (max-width: 400px) {
+	#menu {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+	#menu img {
+		margin-top: 11.5%;
+		width: 60%;
+		height: 20%;
+	}
+	.links a {
+	  color: #f3f3f3;
+	  text-decoration: none;
+	  font-size: 14px;
+	  display: block;
+	}
+	.film {
+		display: block;
+		margin-top: 12%;
+	}
+	#film img {
+		width: calc(90vw - 50px);
+		padding-bottom: 4%;
+	}
+	.film h1 {
+		font-size: 30px;
+	}
+	.line {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 7% auto;
+	}
+	.line-two {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: 1%;
+	}
+	.film-text h2 {
+		padding-bottom: 2%;
+		margin-top: 6%;
+		font-size: 18px;
+	}
+	.film-text p {
+		width: 90%;
+		padding: 4%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.soul-sing {
+		font-size: 20px;
+	}
+	.linwood-border {
+		margin-top: 20%;
+		border: 2px solid black;
+	}
+	.linwood {
+		font-size: 22px;
+	}
+	.team-bio {
+		display: block;
+		width: 100%;
+	}
+	.team-bio h3 {
+		font-size: 16px;
+	}
+	.jacy, .ben {
+		margin: 5% auto;
+		width: 100%;
+	}
+	.jacy-text, .ben-text {
+		padding: 0;
+		width: 100%;
+	}
+	.team-bio p {
+		font-size: 14px;
+	}
+	.call-to-action h3 {
+		font-size: 18px;
+	}
+	.call-to-action p {
+		width: 100%;
+		margin-top: 1%;
+		font-size: 14px;
+	}
+	.donations h3 {
+		margin-top: 2%;
+		font-size: 18px;
+	}
+	.donations p {
+		width: 100%;
+		margin-top: 1%;
+		font-size: 14px;
+	}
+	.address h3 {
+		margin-top: 2%;
+		font-size: 18px;
+	}
+	.address a {
+		font-size: 14px;
+		margin-top: 10%;
+		width: 100%;
+	}
+	footer {
+		display: block;
+	}
+	.instagram, .copyright {
+		margin: 0 auto;
+	}
+	.instagram {
+		width: 100%;
+		margin-top: 6% 0;
+		font-size: 18px;
+	}
+	.instagram img {
+		width: 20%;
+		margin-top: 2%;
+	}
+	.facebook {
+		margin-bottom: 2%;
+	}
+	.copyright {
+		font-size: 12px;
+		margin-bottom: 2%;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+	#menu {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+	#menu img {
+		margin-top: 11.5%;
+		width: 60%;
+		height: 20%;
+	}
+	.links a {
+	  color: #f3f3f3;
+	  text-decoration: none;
+	  font-size: 14px;
+	  display: block;
+	}
+	nav a {
+		display: block;
+		font-size: 16px;
+	}
+	nav a.icon {
+		background: azure;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	  }
+    .film {
+		display: block;
+		margin-top: 12%;
+	}
+	#film img {
+		width: calc(90vw - 50px);
+		padding-bottom: 4%;
+	}
+	.film h1 {
+		font-size: 35px;
+	}
+	.line {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 7% auto;
+	}
+	.line-two {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: 1%;
+	}
+	.film-text h2 {
+		padding-bottom: 2%;
+		margin-top: 6%;
+		font-size: 22px;
+	}
+	.film-text p {
+		width: 90%;
+		padding: 4%;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+	.soul-sing {
+		font-size: 22px;
+	}
+	.linwood-border {
+		margin-top: 6%;
+		border: 2px solid black;
+	}
+	.linwood {
+		font-size: 28px;
+	}
+	.team-bio {
+		display: block;
+		width: 100%;
+	}
+	.team-bio h3 {
+		font-size: 20px;
+	}
+	.jacy, .ben {
+		margin: 5% auto;
+		width: 100%;
+	}
+	.jacy-text, .ben-text {
+		padding: 0;
+		width: 100%;
+	}
+	.team-bio p {
+		font-size: 16px;
+	}
+	.call-to-action h3 {
+		font-size: 25px;
+	}
+	.call-to-action p {
+		width: 100%;
+		font-size: 16px;
+	}
+	.donations h3 {
+		margin-top: 2%;
+		font-size: 25px;
+	}
+	.donations p {
+		width: 100%;
+		font-size: 16px;
+	}
+	.address div h3 {
+		margin-top: 2%;
+		font-size: 25px;
+	}
+	.address div a {
+		font-size: 16px;
+		width: 100%;
+	}
+	footer {
+		display: block;
+	}
+	.instagram, .copyright {
+		margin: 0 auto;
+	}
+	.instagram {
+		width: 100%;
+		margin: 2% auto;
+		font-size: 25px;
+	}
+	.instagram img {
+		width: 15%;
+		margin-top: 1%;
+	}
+	.facebook {
+		margin-bottom: 1%;
+	}
+	.copyright {
+		font-size: 14px;
+		margin: 2% auto;
+	}
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+	#menu {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+	#menu img {
+		margin-top: 8%;
+		width: 50%;
+		height: 17%;
+	}
+	.links a {
+	  color: #f3f3f3;
+	  text-decoration: none;
+	  font-size: 18px;
+	  display: block;
+	}
+    .film {
+		display: flex;
+		margin-top: 8%;
+	}
+	#film img {
+		width: 70%;
+		padding-bottom: 4%;
+	}
+	.film h1 {
+		font-size: 45px;
+		padding-bottom: 4%;
+	}
+	.line {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 7% auto;
+	}
+	.line-two {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: 1%;
+	}
+	.film-text h2 {
+		padding-bottom: 2%;
+		margin-top: 6%;
+		font-size: 24px;
+	}
+	.film-text p {
+		width: 90%;
+		padding: 4%;
+		margin: 0 auto;
+		font-size: 18px;
+	}
+	.soul-sing {
+		font-size: 24px;
+	}
+	.linwood-border {
+		margin-top: 2%;
+		border: 2px solid black;
+	}
+	.linwood {
+		font-size: 35px;
+	}
+	.team-bio {
+		display: block;
+		width: 100%;
+	}
+	.team-bio h3 {
+		font-size: 23px;
+	}
+	.jacy, .ben {
+		margin: 1.5% auto;
+		width: 100%;
+	}
+	.jacy img {
+		width: 35%;
+		margin-left: 33%;
+	}
+	.ben img {
+		width: 35%;
+		margin-left: 33%;
+	}
+	.jacy-text, .ben-text {
+		padding: 2%;
+		width: 100%;
+	}
+	.team-bio p {
+		font-size: 18px;
+	}
+	.call-to-action h3 {
+		font-size: 27px;
+	}
+	.call-to-action p {
+		width: 100%;
+		font-size: 18px;
+	}
+	.donations h3 {
+		margin-top: 2%;
+		font-size: 27px;
+	}
+	.donations p {
+		width: 100%;
+		font-size: 18px;
+	}
+	.address div h3 {
+		margin-top: 2%;
+		font-size: 27px;
+	}
+	.address div a {
+		font-size: 18px;
+		width: 100%;
+	}
+	footer {
+		display: block;
+		padding: 2%;
+	}
+	.instagram {
+		width: 50%;
+		text-align: center;
+		margin: 2% auto;
+		font-size: 27px;
+	}
+	.facebook {
+		margin-bottom: 1.5%;
+	}
+	.copyright {
+		width: 50%;
+		font-size: 16px;
+		text-align: center;
+		margin: 2% auto;
+	}
+	footer img {
+		width: 20%;
+	}
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+	#menu {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+	#menu img {
+		margin-top: 6.5%;
+		width: 50%;
+		height: 17%;
+	}
+	.links a {
+	  color: #f3f3f3;
+	  text-decoration: none;
+	  font-size: 28px;
+	  display: block;
+	}
+    .film {
+		display: flex;
+		margin-top: 8%;
+	}
+	#film img {
+		width: 50%;
+		padding-bottom: 4%;
+	}
+	.film h1 {
+		font-size: 57px;
+		padding-bottom: 4%;
+	}
+	.line {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 7% auto;
+	}
+	.line-two {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: 1%;
+	}
+	.film-text h2 {
+		padding-bottom: 2%;
+		margin-top: 6%;
+		font-size: 42px;
+	}
+	.film-text p {
+		text-align: center;
+		width: 90%;
+		padding: 1%;
+		padding-bottom: 3%;
+		margin: 0 auto;
+		font-size: 30px;
+	}
+	.soul-sing {
+		font-size: 42px;
+	}
+	.linwood-border {
+		margin-top: 2%;
+		border: 2px solid black;
+	}
+	.linwood {
+		font-size: 50px;
+	}
+	.team-bio {
+		display: block;
+		width: 100%;
+	}
+	.team-bio h3 {
+		font-size: 42px;
+	}
+	.jacy, .ben {
+		margin: 1.5% auto;
+		width: 100%;
+	}
+	.jacy img {
+		width: 35%;
+		margin-left: 33%;
+	}
+	.ben img {
+		width: 35%;
+		margin-left: 33%;
+	}
+	.jacy-text, .ben-text {
+		padding: 2%;
+		width: 100%;
+	}
+	.team-bio p {
+		font-size: 30px;
+	}
+	.call-to-action h3 {
+		font-size: 42px;
+	}
+	.call-to-action p {
+		width: 100%;
+		font-size: 30px;
+	}
+	.donations h3 {
+		margin-top: 2%;
+		font-size: 42px;
+	}
+	.donations p {
+		width: 100%;
+		font-size: 30px;
+	}
+	.address div h3 {
+		margin-top: 2%;
+		font-size: 42px;
+	}
+	.address div a {
+		font-size: 30px;
+		width: 100%;
+	}
+	footer {
+		display: block;
+		padding: 2%;
+	}
+	.instagram {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 42px;
+	}
+	.facebook {
+		margin-bottom: 1.5%;
+	}
+	.copyright {
+		width: 50%;
+		font-size: 28px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	footer img {
+		width: 20%;
+	}
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+	#menu {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+	#menu img {
+		margin-top: 7%;
+		width: 50%;
+		height: 17%;
+	}
+	.links a {
+	  color: #f3f3f3;
+	  text-decoration: none;
+	  font-size: 32px;
+	  display: block;
+	}
+    .film {
+		display: flex;
+		margin-top: 4%;
+	}
+	#film img {
+		width: 50%;
+		padding-bottom: 4%;
+	}
+	.film h1 {
+		font-size: 60px;
+		padding-bottom: 4%;
+	}
+	.line {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 7% auto;
+	}
+	.line-two {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: 1%;
+	}
+	.film-text h2 {
+		padding-bottom: 2%;
+		margin-top: 6%;
+		font-size: 42px;
+	}
+	.film-text p {
+		text-align: center;
+		width: 90%;
+		padding: 1%;
+		padding-bottom: 3%;
+		margin: 0 auto;
+		font-size: 30px;
+	}
+	.soul-sing {
+		font-size: 42px;
+	}
+	.linwood {
+		text-align: center;
+		font-weight: bold;
+		padding-bottom: 1%;
+		font-size: 52px;
+	}
+	.linwood-border {
+		border: 4px solid black;
+		padding: 4%;
+	}
+	.jacy img, .ben img {
+		width: 50%;
+		border-radius: 50%;
+		margin-top: 4%;
+		margin-left: 25%;
+	}
+	.jacy-text, .ben-text {
+		width: 100%;
+		padding: 2% 6%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.jacy, .ben {
+		width: 50%;
+	}
+	.team-bio h3 {
+		font-weight: bold;
+		font-size: 35px;
+	}
+	.team-bio p {
+		font-size: 25px;
+	}
+	.team-bio {
+		display: flex;
+	}
+	.call-to-action h3 {
+		font-size: 35px;
+	}
+	.call-to-action p {
+		width: 100%;
+		font-size: 25px;
+	}
+	.donations h3 {
+		font-size: 35px;
+	}
+	.donations p {
+		width: 100%;
+		font-size: 25px;
+	}
+	.address div h3 {
+		font-size: 35px;
+	}
+	.address div a {
+		font-size: 25px;
+		width: 100%;
+	}
+	footer {
+		display: block;
+		padding: 2%;
+	}
+	.instagram {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 35px;
+	}
+	.facebook {
+		margin-bottom: 1.5%;
+	}
+	.copyright {
+		width: 50%;
+		font-size: 23px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	footer img {
+		width: 20%;
+	}
+}
+
+@media screen and (min-width: 1921px) {
+	#menu {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+	#menu img {
+		margin-top: 6.5%;
+		width: 50%;
+		height: 17%;
+	}
+	.links a {
+	  color: #f3f3f3;
+	  text-decoration: none;
+	  font-size: 40px;
+	  display: block;
+	}
+    .film {
+		display: flex;
+		margin-top: 4%;
+	}
+	#film img {
+		width: 50%;
+		padding-bottom: 4%;
+	}
+	.film h1 {
+		font-size: 70px;
+		padding-bottom: 4%;
+	}
+	.line {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 7% auto;
+	}
+	.line-two {
+		height: 1px;
+		width: 100px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: 1%;
+	}
+	.film-text h2 {
+		padding-bottom: 2%;
+		margin-top: 6%;
+		font-size: 18px;
+	}
+	.film-text p {
+		width: 90%;
+		padding: 4%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.soul-sing {
+		font-size: 20px;
+	}
+	.linwood {
+		text-align: center;
+		font-weight: bold;
+		padding-bottom: 1%;
+		font-size: 55px;
+	}
+	.linwood-border {
+		border: 4px solid black;
+		padding: 4%;
+	}
+	.jacy img, .ben img {
+		width: 50%;
+		border-radius: 50%;
+		margin-top: 4%;
+		margin-left: 25%;
+	}
+	.jacy-text, .ben-text {
+		width: 100%;
+		padding: 2% 6%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.jacy, .ben {
+		width: 50%;
+	}
+	.team-bio h3 {
+		font-weight: bold;
+		font-size: 45px;
+	}
+	.team-bio p {
+		font-size: 35px;
+	}
+	.team-bio {
+		display: flex;
+	}
+	.call-to-action h3 {
+		font-size: 45px;
+	}
+	.call-to-action p {
+		width: 100%;
+		font-size: 35px;
+	}
+	.donations h3 {
+		margin-top: 2%;
+		font-size: 45px;
+	}
+	.donations p {
+		width: 100%;
+		font-size: 35px;
+	}
+	.address div h3 {
+		margin-top: 2%;
+		font-size: 45px;
+	}
+	.address div a {
+		font-size: 35px;
+		width: 100%;
+	}
+	footer {
+		display: block;
+		padding: 2%;
+	}
+	.instagram {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 45px;
+	}
+	.facebook {
+		margin-bottom: 2%;
+	}
+	.copyright {
+		width: 50%;
+		font-size: 33px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	footer img {
+		width: 20%;
+	}
+}
